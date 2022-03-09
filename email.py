@@ -5,7 +5,6 @@
 # search space -- if space found wrong
 # charecter must not be uppercase
 
-
 email = input("Enter Your Email : ")
 k, j, d = 0, 0, 0
 if len(email) >= 6:
