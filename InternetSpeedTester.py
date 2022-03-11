@@ -3,8 +3,8 @@ import pyspeedtest
 
 
 def speedcheck():
-    sp = pyspeedtest.SpeedTest()
-    sp.get_servers("https://www.google.com")
+    sp = pyspeedtest.SpeedTest("https://www.google.com")
+    sp.get_servers()
     down = str(round((sp.download() / (10 ** 6), 3)) + "Mbps")
     up = str(round((sp.upload() / (10 ** 6), 3)) + "Mbps")
     lab_down.config(text=down)
