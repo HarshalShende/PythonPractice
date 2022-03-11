@@ -1,0 +1,28 @@
+install pyinstaller
+go to file location
+
+pyinstaller file.py
+enter
+
+# above way creates to much files
+
+#method 2
+pyinstaller --onefile file.py
+ #above way creates single file
+ #share and other user dont need python installed
+
+
+#method 3
+pip install auto-py-to-exe
+enter
+auto-py-exe 
+#opens user interface
+select python file
+one directory / one file
+window based
+icon
+additional files 
+output directory
+convert
+
+
