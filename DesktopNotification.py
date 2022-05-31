@@ -8,4 +8,7 @@ if __name__=='__main__':
             message="Let Your Mind Be Free From Frustration & Reduce eyestrain",
             app_icon="D:/notification/try.ico",
             timeout=5)
-        time.sleep(10)
+        time.sleep(10)#seconds 60*60= 1hour
+
+#pythonw file.py   to run in background
+
